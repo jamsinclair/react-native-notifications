@@ -38,7 +38,7 @@
     "xcode": "open example/ios/NotificationsExampleApp.xcworkspace",
     "studio": "open -a /Applications/Android\\ Studio.app ./example/android",
     "prerelease": "npm run build",
-    "release": "node ./scripts/release",
+    "__release": "node ./scripts/release",
     "generate-changelog": "gren changelog",
     "docusaurus": "npm start --prefix website",
     "pod-install": "pod install --project-directory=example/ios"
